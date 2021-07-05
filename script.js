@@ -3,7 +3,7 @@ function comprar() {
     if (produto.length == 0) {
         alert('Por favor, insira algum produto.')
     } else {
-        let preco = parseFloat(prompt(`Quanto custa um(uma) ${produto} que você está comprando?`))
+        let preco = parseFloat(prompt(`Quanto custa um(uma) ${produto} que você está comprando? Obs.: UTILIZE PONTO PARA VALORES COM CASAS DECIMAIS.`))
         if (isNaN(preco)) {
             alert('Por favor, insira um valor válido.')
         } else {
